@@ -1,4 +1,6 @@
-﻿namespace Smart.Mobile.Maui.Poc.MsGuide;
+﻿using Microsoft.Extensions.Logging;
+
+namespace Smart.Mobile.Maui.Poc.MsGuide;
 
 public static class MauiProgram
 {
