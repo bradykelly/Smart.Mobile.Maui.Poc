@@ -1,7 +1,4 @@
-﻿using Microsoft.Maui.Hosting;
-
-
-namespace Smart.Mobile.Maui.Poc.MsGuide;
+﻿namespace Smart.Mobile.Maui.Poc.MsGuide;
 
 public static class MauiProgram
 {

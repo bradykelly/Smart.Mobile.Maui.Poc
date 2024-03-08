@@ -482,3 +482,7 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Temp, TODO: Remove these some time.
+/Code/
+**/Android/Sdk/
