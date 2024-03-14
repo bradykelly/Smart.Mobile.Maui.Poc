@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>d18e3e3c-16b9-47c5-a402-a7dc01449e81</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Sqlite\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.3" />
+      <PackageReference Include="SQLite" Version="3.13.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Smart.Mobile.Config\Smart.Mobile.Config.csproj" />
+    </ItemGroup>
+
+</Project>
