@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Smart.Mobile.Maui.Poc.MsGuide"
     Shell.FlyoutBehavior="Disabled"
-    Title="Smart.Mobile.Maui.Poc.MsGuide">
+    Title="Smart.Mobile.Maui.Poc.Quizzes">
 
     <ShellContent
         Title="Home"

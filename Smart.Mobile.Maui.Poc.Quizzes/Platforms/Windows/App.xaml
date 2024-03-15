@@ -1,8 +1,8 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="Smart.Mobile.Maui.Poc.MsGuide.WinUI.App"
+    x:Class="Smart.Mobile.Maui.Poc.Quizzes.WinUI.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:Smart.Mobile.Maui.Poc.MsGuide.WinUI">
+    xmlns:local="using:Smart.Mobile.Maui.Poc.Quizzes.WinUI">
 
 </maui:MauiWinUIApplication>

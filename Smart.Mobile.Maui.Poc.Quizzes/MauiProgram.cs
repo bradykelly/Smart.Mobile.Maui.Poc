@@ -27,4 +27,3 @@ public static class MauiProgram
 		return builder.Build();
 	}
 }
-//   <Smart.Mobile.Maui.Poc.MsGuide>\MauiProgram.cs:842 Argument type 'Microsoft.Extensions.Configuration.IConfigurationSection' is not assignable to parameter type 'System.Action<Smart.Mobile.Config.MobileQuizzOptions>'
