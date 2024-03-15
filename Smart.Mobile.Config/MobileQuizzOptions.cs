@@ -2,5 +2,6 @@
 
 public class MobileQuizzOptions
 {
-    public string? DbPath { get; init; } = null;
+    public const string ConfigurationName = nameof(MobileQuizzOptions);
+    public string? DbPath { get; set; } = null;
 }
