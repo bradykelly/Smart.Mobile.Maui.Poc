@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Smart.Mobile.Maui.Poc.MsGuide;
+namespace Smart.Mobile.Maui.Poc.Quizzes;
 
 [Application]
 public class MainApplication : MauiApplication

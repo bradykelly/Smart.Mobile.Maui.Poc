@@ -5,7 +5,7 @@ public interface ISqliteService
     // TODO: Find out about `Func<SqliteDataReader, T> map`
     //List<T> Fetch<T>(string fetchSql, Func<SqliteDataReader, T> map);
 
-    List<T> Fetch<T>(string querySql);
+    IEnumerable<T> Query<T>(string querySql);
     
     // TODO: Could be more generic.
     void Execute(string commandSql);
