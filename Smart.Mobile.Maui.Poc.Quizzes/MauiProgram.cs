@@ -22,7 +22,16 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 		
-		builder.Services.AddTransient<ISqliteService, SqliteService>();
+		builder.Services.AddTransient<ISqliteService, SqliteService>()
+			.AddSingleton<IConnectivity>(Connectivity.Current)
+			.AddSingleton(WebAuthenticator.Default)
+			.AddSingleton(SecureStorage.Default)
+			.AddRefitClient<IUserProfileService>()
+			.AddSingleton<AuthService>()
+			.AddSingleton<JWTService>()
+			.AddTransient<LoginViewModel>()
+			.AddTransient<Login>()
+
 
 #if DEBUG
 		builder.Logging.AddDebug();
